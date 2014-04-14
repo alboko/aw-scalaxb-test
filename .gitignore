@@ -1,5 +1,12 @@
 *.class
 *.log
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# MAC specific
+.DS_Store
 
 # sbt specific
 .cache/
@@ -15,3 +22,25 @@ project/plugins/project/
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
+
+# Eclipse specifics
+.cache
+.classpath
+.project
+.metadata
+.gradle
+bin/
+tmp/
+local.properties
+.settings/
+.loadpath
+
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# sbteclipse plugin 
+.target
