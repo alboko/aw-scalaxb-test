@@ -15,3 +15,5 @@ libraryDependencies ++= Seq(
 scalaxbSettings
  
 sourceGenerators in Compile <+= scalaxb in Compile
+
+packageName in scalaxb in Compile := "aw"
