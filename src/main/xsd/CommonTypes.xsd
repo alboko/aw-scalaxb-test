@@ -750,7 +750,7 @@
 					<xsd:documentation>Request retries, in case of error, 0..4, default 4</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
-			<xsd:element name="ParseItineraries" type="xsd:boolean" nillable="true" default="false">
+			<xsd:element name="ParseItineraries" type="xsd:boolean" nillable="true">
 				<xsd:annotation>
 					<xsd:documentation>Parse and return user itineraries</xsd:documentation>
 				</xsd:annotation>
@@ -781,7 +781,7 @@
 					<xsd:documentation>Browser state from previous request. Used for programs with security questions</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
-			<xsd:element name="ParseHistory" type="xsd:boolean" nillable="true" default="false">
+			<xsd:element name="ParseHistory" type="xsd:boolean" nillable="true">
 				<xsd:annotation>
 					<xsd:documentation>Parse and return account history</xsd:documentation>
 				</xsd:annotation>
@@ -796,7 +796,7 @@
 					<xsd:documentation>Up to what date do you have history cache on your end. Null means no cache. We will return partial history, starting from (including) this date.</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
-			<xsd:element name="ParseFiles" type="xsd:boolean" nillable="true" default="false">
+			<xsd:element name="ParseFiles" type="xsd:boolean" nillable="true">
 				<xsd:annotation>
 					<xsd:documentation>Parse and return account files</xsd:documentation>
 				</xsd:annotation>
@@ -812,7 +812,7 @@
 						Null means no cache. We will return partial files, starting from (including) this date.</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
-			<xsd:element name="Options" type="xsd:string" nillable="true" default="">
+			<xsd:element name="Options" type="xsd:string" nillable="true">
 				<xsd:annotation>
 					<xsd:documentation>Request options, reserved field, leave empty</xsd:documentation>
 				</xsd:annotation>
